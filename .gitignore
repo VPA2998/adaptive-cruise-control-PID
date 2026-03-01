@@ -4,6 +4,7 @@ build/
 *.a
 *.so
 *.exe
+*.out
 
 # Python
 __pycache__/
@@ -14,20 +15,28 @@ __pycache__/
 venv/
 env/
 .venv
+pip-log.txt
+pip-delete-this-directory.txt
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
+.DS_Store
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store
+.Trashes
 
 # Temporary files
 *.tmp
 *.log
+*.bak
+*.swp
+*~
 
 # CMake
 CMakeFiles/
@@ -38,3 +47,12 @@ Makefile
 # Output files
 *.csv
 *.mp4
+*.gif
+*.png
+build/acc_sim.csv
+build/acc_animation.*
+
+# Test artifacts
+*.gcov
+*.gcda
+*.gcno
