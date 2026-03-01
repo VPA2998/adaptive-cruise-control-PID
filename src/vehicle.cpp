@@ -4,8 +4,8 @@
  */
 
 #include "vehicle.hpp"
-#include math>
 #include <algorithm>
+
 
 namespace acc_sim {
 

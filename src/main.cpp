@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
     double dt = 0.1;
     int num_steps = (int)(params.sim_time / dt);
     
-    std::ofstream csv_file("build/acc_sim.csv");
+   std::ofstream csv_file("acc_sim.csv");
     if (!csv_file.is_open()) {
         std::cerr << "Error: Cannot open build/acc_sim.csv\n";
         return 1;
