@@ -18,7 +18,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
-#include <math>
+#include math>
 #include <vector>
 
 using namespace acc_sim;
