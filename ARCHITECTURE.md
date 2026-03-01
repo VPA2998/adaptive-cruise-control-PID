@@ -109,7 +109,7 @@ Key Design Choices
 | Kd_h      | Headway derivative gain   | 0.02 - 0.04 |
 
 
-See docs/tuning_guide.md for detailed tuning steps.
+See [tuning_guide.md](../tuning_guide.md) for detailed tuning steps.
 
 
 ### Output Data (CSV)
@@ -126,7 +126,7 @@ time, v_ego, v_lead, a_ego, d_gap, u_control, mode
 - Emergency: Handles lead vehicle braking gracefully
 - Stability: Works across different friction coefficients
 
-See docs/pid_theory.md for control theory details.
+See [pid_theory.md](pid_theory.md) for control theory details.
 
 
 
